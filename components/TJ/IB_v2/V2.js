@@ -76,6 +76,7 @@ const TypeCard = () => {
     text-decoration-line: underline;
   `;
 
+
   return (
 
       <Container className={styles.Container}>
