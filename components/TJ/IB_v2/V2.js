@@ -3,103 +3,60 @@ import CardImage from "./Card-image2";
 import styles from "./v2.css";
 
 const TypeCard = () => {
-  const Container = styled.div`
-  
-  `;
+  const Container = styled.div``;
   const Title = styled.h1`
-    font-family: "Poppins";
-    color: #3cbf0a;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
   `;
 
   const Bold = styled.b`
-    font-size: 18px;
-    width: 75px;
-    height: 17px;
+
   `;
   const Image = styled.div`
-    background: #ffffff;
-    width: 70%;
+
   `;
   const Content = styled.p`
-    width: 312px;
-    height: 56px;
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    /* or 117% */
-
-    text-align: center;
   `;
-  const Row = styled.div`
-    display: flex;
-    gap: 18.58px;
+  const Row = styled.div`;
   `;
 
   const Col = styled.div`
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+
   `;
   const Button = styled.button`
-    background: #3cbf0a;
-    font-weight: 700;
-    font-size: 11.7337px;
-    color: white;
-    border: none;
-    border-radius: 28.6474px;
-    cursor: pointer;
-    padding: 0px 14.3237px;
-    gap: 14.32px;
-    width: 110.65px;
-    height: 24px;
-    text-transform: capitalize;
+
   `;
   const Link = styled.a`
-    color: #3cbf0a;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    line-break: 2;
-    text-decoration-line: underline;
+
   `;
 
   const Cashier = styled.a`
-    text-decoration-line: underline;
+;
   `;
 
   return (
 
-      <Container className={styles.Container}>
-        <Title>
-          Continue your search on <Bold>Toataljobs</Bold>
+      <Container className={styles.cardContainer}>
+        <Title className={styles.title}>
+          Continue your search on <Bold className={styles.bold}>Toataljobs</Bold>
         </Title>
-        <Image>
+        <Image className={styles.cardImage}>
             <CardImage></CardImage>
         </Image>
-        <Content>
+        <Content className={styles.content}>
           What job type suits
           <br /> you the must?
         </Content>
-        <Row>
-          <Col>
-            <Button>Temporary</Button>
-            <Button>Parmanent</Button>
+        <Row className={styles.buttonsRow}>
+          <Col className={styles.buttonsCol}>
+            <Button className={styles.buttons}>Temporary</Button>
+            <Button className={styles.buttons}>Parmanent</Button>
           </Col>
-          <Col>
-            <Button>Part Time</Button>
-            <Button>Contract</Button>
+          <Col className={styles.buttonsCol}>
+            <Button className={styles.buttons}>Part Time</Button>
+            <Button className={styles.buttons}>Contract</Button>
           </Col>
         </Row>
-        <Link href="/">No thanks i alredy have an account</Link>
+        <Link className={styles.registerLink} href="/">No thanks i alredy have an account</Link>
       </Container>
   );
 };
