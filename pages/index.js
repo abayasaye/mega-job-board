@@ -3,7 +3,7 @@ import Test from '../components/Test'
 
 export default function Home() {
 const Container = styled.div`
-background-color:#fff;
+background-color:#F5F5F5;
 text-align:center;
 padding:50px;
 `

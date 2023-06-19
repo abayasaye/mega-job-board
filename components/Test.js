@@ -10,7 +10,6 @@ const Test = () => {
     padding: 20px;
     gap: 18.58px;
     width: 352px;
-    height: 410px;
     background: #ffffff;
     border-radius: 18.5809px;
     flex: none;
@@ -26,6 +25,11 @@ const Test = () => {
     line-height: 22px;
   `;
 
+  const Bold = styled.b`
+    font-size: 18px;
+    width: 75px;
+    height: 17px;
+  `;
   const Image = styled.img`
     background: #ffffff;
     width: 70%;
@@ -55,6 +59,7 @@ const Test = () => {
   const Button = styled.button`
     background: #3cbf0a;
     font-weight: 700;
+    font-size: 11.7337px;
     color: white;
     border: none;
     border-radius: 28.6474px;
@@ -74,11 +79,22 @@ const Test = () => {
     line-break: 2;
     text-decoration-line: underline;
   `;
+
+  const Cashier = styled.a`
+    text-decoration-line: underline;
+  `;
+
   return (
+    <>
       <Container>
-        <Title>Continue your search on  Toataljobs</Title>
+        <Title>
+          Continue your search on <Bold>Toataljobs</Bold>
+        </Title>
         <Image src="phone.png" />
-        <Content>Preferred Commuting Distance For A Cashier Job?</Content>
+        <Content>
+          Preferred Commuting <br />
+          Distance For A <Cashier href="/">Cashier</Cashier> Job?
+        </Content>
         <Row>
           <Col>
             <Button>20 Min Away</Button>
@@ -89,8 +105,9 @@ const Test = () => {
             <Button>1 Hour Away</Button>
           </Col>
         </Row>
-        <Link href="/ ">No thanks i alredy have an account</Link>
+        <Link href="/">No thanks i alredy have an account</Link>
       </Container>
+    </>
   );
 };
 
