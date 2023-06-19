@@ -1,21 +1,10 @@
 import styled from "styled-components";
 import CardImage from "./Card-image2";
+import styles from "./v2.css";
 
 const TypeCard = () => {
   const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    padding: 20px;
-    gap: 18.58px;
-    width: 352px;
-    background: #ffffff;
-    border-radius: 18.5809px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  
   `;
   const Title = styled.h1`
     font-family: "Poppins";
@@ -89,7 +78,7 @@ const TypeCard = () => {
 
   return (
 
-      <Container>
+      <Container className={styles.Container}>
         <Title>
           Continue your search on <Bold>Toataljobs</Bold>
         </Title>
