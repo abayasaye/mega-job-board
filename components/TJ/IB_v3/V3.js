@@ -3,38 +3,16 @@ import styles from "./v3.css";
 import CardImage from "./Card-image3";
 
 const CommuteCard = () => {
-  const Container = styled.div`
-
-  `;
-  const Title = styled.h1`
-
-  `;
-
-  const Bold = styled.b`
-
-  `;
-  const Image = styled.div`
-
-  `;
-  const Content = styled.p`
-
-  `;
-  const Row = styled.div`
-
-  `;
-
-  const Col = styled.div`
-
-  `;
-  const Button = styled.button`
-
-  `;
-  const Link = styled.a`
-
-  `;
-
-  const Btn = styled.button``
-
+  const Container = styled.div``;
+  const Title = styled.h1``;
+  const Bold = styled.b``;
+  const Image = styled.div``;
+  const Content = styled.p``;
+  const Row = styled.div``;
+  const Col = styled.div``;
+  const Button = styled.button``;
+  const Link = styled.a``;
+  const Btn = styled.button``;
 
   return (
     <Container className={styles.cardContainer}>
@@ -58,7 +36,9 @@ const CommuteCard = () => {
           <Btn className={styles.btnLg}>Ride A Bicycle Of Course</Btn>
         </Col>
       </Row>
-      <Link className={styles.registerLink} href="/">No thanks i alredy have an account</Link>
+      <Link className={styles.registerLink} href="/">
+        No thanks i alredy have an account
+      </Link>
     </Container>
   );
 };
