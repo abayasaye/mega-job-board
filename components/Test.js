@@ -92,7 +92,7 @@ const Test = () => {
         </Title>
         <Image src="phone.png" />
         <Content>
-          Preferred Commuting <br />
+          Preferred Commuting<br />
           Distance For A <Cashier href="/">Cashier</Cashier> Job?
         </Content>
         <Row>
