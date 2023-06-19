@@ -1,5 +1,5 @@
 import * as React from "react"
-const SvgComponent = (props) => (
+const CardImage = (props) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={161}
@@ -134,4 +134,4 @@ const SvgComponent = (props) => (
         </defs>
     </svg>
 )
-export default SvgComponent
+export default CardImage

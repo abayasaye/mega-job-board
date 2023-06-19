@@ -1,29 +1,52 @@
 import styled from "styled-components";
-import styles from "./v1.css";
-import CardImage from "./card-image";
+import CardImage from "./Card-image2";
 
+const TypeCard = () => {
+  const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    gap: 18.58px;
+    width: 352px;
+    background: #ffffff;
+    border-radius: 18.5809px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  `;
+  const Title = styled.h1`
+    font-family: "Poppins";
+    color: #3cbf0a;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  `;
 
-
-
-const Test = () => {
-  const Container = styled.div``;
-  const Title = styled.h1``;
-  const Bold = styled.b``;
-  
+  const Bold = styled.b`
+    font-size: 18px;
+    width: 75px;
+    height: 17px;
+  `;
   const Image = styled.div`
     background: #ffffff;
     width: 70%;
   `;
   const Content = styled.p`
-    font-family: "Poppins";
     width: 312px;
-    height: 48px;
+    height: 56px;
+
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+
     text-align: center;
-    text-transform: capitalize;
   `;
   const Row = styled.div`
     display: flex;
@@ -65,33 +88,30 @@ const Test = () => {
   `;
 
   return (
-    <>
-      <Container className={styles.cardContainer}>
-        <Title className={styles.title}>
-          Continue your search on <Bold className={styles.bold}>Toataljobs</Bold>
+
+      <Container>
+        <Title>
+          Continue your search on <Bold>Toataljobs</Bold>
         </Title>
         <Image>
-        <CardImage></CardImage>
+            <CardImage></CardImage>
         </Image>
         <Content>
-          Preferred Commuting
-          <br />
-          Distance For A <Cashier href="/">Cashier</Cashier> Job?
+          What job type suits
+          <br /> you the must?
         </Content>
         <Row>
           <Col>
-            <Button>20 Min Away</Button>
-            <Button>2 Hours Away</Button>
+            <Button>Temporary</Button>
+            <Button>Parmanent</Button>
           </Col>
           <Col>
-            <Button>45 Min Away</Button>
-            <Button>1 Hour Away</Button>
+            <Button>Part Time</Button>
+            <Button>Contract</Button>
           </Col>
         </Row>
         <Link href="/">No thanks i alredy have an account</Link>
       </Container>
-    </>
   );
 };
-
-export default Test;
+export default TypeCard;
