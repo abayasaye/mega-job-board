@@ -12,12 +12,20 @@ padding:50px;
 `
 
 const Row = styled.div`
-flex
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
 `
   return (
     <Container>
-      <Test/>
+      <Row>
+         <Test/>
+      </Row>
+      <Row>
       <TypeCard/>
+      </Row>
+     
     </Container>
   )
 }

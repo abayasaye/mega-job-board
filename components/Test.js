@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import PhoneSvg from "./PhoneSvg";
+
+
 
 const Test = () => {
   const Container = styled.div`
@@ -30,7 +33,7 @@ const Test = () => {
     width: 75px;
     height: 17px;
   `;
-  const Image = styled.img`
+  const Image = styled.div`
     background: #ffffff;
     width: 70%;
   `;
@@ -90,9 +93,11 @@ const Test = () => {
         <Title>
           Continue your search on <Bold>Toataljobs</Bold>
         </Title>
-        <Image src="phone.png" />
+        <Image>
+          <PhoneSvg></PhoneSvg>
+        </Image>
         <Content>
-          Preferred Commuting<br />
+          Preferred Commuting <br />
           Distance For A <Cashier href="/">Cashier</Cashier> Job?
         </Content>
         <Row>
