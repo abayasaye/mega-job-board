@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import PhoneSvg from "./PhoneSvg";
+import styles from "./v3.css";
+import CardImage from "./Card-image3";
 
-
-
-const Test = () => {
+const CommuteCard = () => {
   const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -38,15 +37,16 @@ const Test = () => {
     width: 70%;
   `;
   const Content = styled.p`
-    font-family: "Poppins";
     width: 312px;
-    height: 48px;
+    height: 56px;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+
     text-align: center;
-    text-transform: capitalize;
   `;
   const Row = styled.div`
     display: flex;
@@ -61,6 +61,7 @@ const Test = () => {
   `;
   const Button = styled.button`
     background: #3cbf0a;
+    line-height: 23px;
     font-weight: 700;
     font-size: 11.7337px;
     color: white;
@@ -69,7 +70,7 @@ const Test = () => {
     cursor: pointer;
     padding: 0px 14.3237px;
     gap: 14.32px;
-    width: 110.65px;
+    width: 141.65px;
     height: 24px;
     text-transform: capitalize;
   `;
@@ -83,37 +84,34 @@ const Test = () => {
     text-decoration-line: underline;
   `;
 
-  const Cashier = styled.a`
-    text-decoration-line: underline;
-  `;
+  const Btn = styled.button``
+
 
   return (
-    <>
-      <Container>
-        <Title>
-          Continue your search on <Bold>Toataljobs</Bold>
-        </Title>
-        <Image>
-          <PhoneSvg></PhoneSvg>
-        </Image>
-        <Content>
-          Preferred Commuting <br />
-          Distance For A <Cashier href="/">Cashier</Cashier> Job?
-        </Content>
-        <Row>
-          <Col>
-            <Button>20 Min Away</Button>
-            <Button>2 Hours Away</Button>
-          </Col>
-          <Col>
-            <Button>45 Min Away</Button>
-            <Button>1 Hour Away</Button>
-          </Col>
-        </Row>
-        <Link href="/">No thanks i alredy have an account</Link>
-      </Container>
-    </>
+    <Container>
+      <Title>
+        Continue your search on <Bold>Toataljobs</Bold>
+      </Title>
+      <Image>
+        <CardImage></CardImage>
+      </Image>
+      <Content>
+        How Do You
+        <br /> Commute To Work?
+      </Content>
+      <Row>
+        <Col>
+          <Button>walking is the best</Button>
+          <Button>Driver A Car</Button>
+        </Col>
+        <Col>
+          <Button>Take The Train</Button>
+          <Btn className={styles.btnLg}>Ride A Bicycle Of Course</Btn>
+        </Col>
+      </Row>
+      <Link href="/">No thanks i alredy have an account</Link>
+    </Container>
   );
 };
 
-export default Test;
+export default CommuteCard;

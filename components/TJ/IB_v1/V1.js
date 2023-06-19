@@ -1,24 +1,13 @@
 import styled from "styled-components";
-import styles from './v1.css';
-import cardImage from './card-image.svg';
-
-
-
+import styles from "./v1.css";
+import CardImage from "./card-image";
 
 const Test = () => {
-  const Container = styled.div`
-
-  `;
-  const Title = styled.h1`
-   
-  `;
-
-  const Bold = styled.b`
-    font-size: 18px;
-    width: 75px;
-    height: 17px;
-  `;
-  const Image = styled.img`
+  const Container = styled.div``;
+  const Title = styled.h1``;
+  const Bold = styled.b``;
+  
+  const Image = styled.div`
     background: #ffffff;
     width: 70%;
   `;
@@ -76,11 +65,14 @@ const Test = () => {
     <>
       <Container className={styles.cardContainer}>
         <Title className={styles.title}>
-          Continue your search on <Bold>Toataljobs</Bold>
+          Continue your search on <Bold className={styles.bold}>Toataljobs</Bold>
         </Title>
-        <Image src="phone.png" />
+        <Image>
+        <CardImage></CardImage>
+        </Image>
         <Content>
-          Preferred Commuting<br />
+          Preferred Commuting
+          <br />
           Distance For A <Cashier href="/">Cashier</Cashier> Job?
         </Content>
         <Row>

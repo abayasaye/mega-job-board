@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import SvgComponent from "./SvgComponent";
+import CardImage from "./Card-image2";
 
 const TypeCard = () => {
   const Container = styled.div`
@@ -88,13 +88,13 @@ const TypeCard = () => {
   `;
 
   return (
-    <>
+
       <Container>
         <Title>
           Continue your search on <Bold>Toataljobs</Bold>
         </Title>
         <Image>
-          <SvgComponent></SvgComponent>
+            <CardImage></CardImage>
         </Image>
         <Content>
           What job type suits
@@ -107,12 +107,11 @@ const TypeCard = () => {
           </Col>
           <Col>
             <Button>Part Time</Button>
-            <Button>Contact</Button>
+            <Button>Contract</Button>
           </Col>
         </Row>
         <Link href="/">No thanks i alredy have an account</Link>
       </Container>
-    </>
   );
 };
 export default TypeCard;
