@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Test from '../components/Test'
+import TJ_IB_v1 from '../components/TJ/IB_v1/V1'
 import TypeCard from '../components/TypeCard'
 
 export default function Home() {
@@ -12,20 +13,11 @@ padding:50px;
 `
 
 const Row = styled.div`
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: center;
+
 `
   return (
     <Container>
-      <Row>
-         <Test/>
-      </Row>
-      <Row>
-      <TypeCard/>
-      </Row>
-     
+      <TJ_IB_v1/>
     </Container>
   )
 }
