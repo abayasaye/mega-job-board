@@ -14,6 +14,7 @@ const TypeCard = () => {
   const Link = styled.a``;
   const Cashier = styled.a``;
 
+
   return (
     <Container className={styles.cardContainer}>
       <Title className={styles.title}>
