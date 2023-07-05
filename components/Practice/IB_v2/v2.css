@@ -1,0 +1,58 @@
+.container {
+  text-align: left;
+  background-color: #fff;
+  width: 394.75px;
+  height: 376.81px;
+  border-radius: 12px;
+  padding: 26px, 29px, 26px, 29px;
+}
+
+.title {
+  margin-left: 20px;
+  color: #3cbf0a;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36.6px;
+}
+
+.span {
+  margin:0 10px 0px 20px;
+  color: #3cbf0a;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36.6px;
+}
+
+.inputs {
+  padding: 10px, 20px, 10px, 20px;
+  margin:10px 0 0 20px ;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+  color: #000000;
+  width: 328px;
+  height: 41.6px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 4px 21px 0 #0000001f;
+}
+
+.button {
+  margin:20px 0 0 20px ;
+  width: 328px;
+  height: 40px;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.52px;
+  background: #3cbf0a;
+  border-radius: 52px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

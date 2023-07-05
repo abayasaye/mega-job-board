@@ -48,6 +48,7 @@
 
 .registerLing{
     color: #B3B4C3;
+    font-family: "poppins";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -55,4 +56,5 @@
     line-break: 2;
     text-decoration-line: underline;
     margin-top:10px;
+    cursor: pointer;
 }

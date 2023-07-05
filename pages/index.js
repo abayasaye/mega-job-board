@@ -5,6 +5,8 @@ import MonsterV1 from "../components/Monster/IB_v1/V1";
 import MonsterV2 from "../components/Monster/IB_v2/V2";
 import NaturalIntelegentV1 from "../components/Natural_Intelegent/IB_v1/v1";
 import TestV1 from "../components/Practice/IB_v1/V1";
+import TotalJobV1 from "../components/Practice/IB_v2/V2";
+import TotalJobV2 from "../components/Practice/IB_v3/V3";
 
 
 export default function Home() {
@@ -20,8 +22,13 @@ export default function Home() {
   return (
     <>
       <Container>
-        {/* <NaturalIntelegentV1 /> */}
         <TestV1/>
+        </Container>
+        <Container>
+        <TotalJobV1/>
+      </Container>
+      <Container>
+        <TotalJobV2/>
       </Container>
     </>
   );
