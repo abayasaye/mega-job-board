@@ -4,6 +4,8 @@ import CardImag from "../components/Monster/IB_v2/Card-images";
 import MonsterV1 from "../components/Monster/IB_v1/V1";
 import MonsterV2 from "../components/Monster/IB_v2/V2";
 import NaturalIntelegentV1 from "../components/Natural_Intelegent/IB_v1/v1";
+import TestV1 from "../components/Practice/IB_v1/V1";
+
 
 export default function Home() {
   const Container = styled.div`
@@ -18,7 +20,8 @@ export default function Home() {
   return (
     <>
       <Container>
-        <NaturalIntelegentV1 />
+        {/* <NaturalIntelegentV1 /> */}
+        <TestV1/>
       </Container>
     </>
   );
