@@ -3,8 +3,6 @@ import styles from "./v1.css";
 import CardImage from "./card-image";
 
 
-
-
 const Test = () => {
   const Container = styled.div``;
   const Title = styled.h1``;
