@@ -1,0 +1,20 @@
+.container {
+  background-color: #ffffff;
+  width: 336px;
+  height: 332px;
+  padding: 17px 12px 17px 12px;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.abcd {
+  background-color: #e8eaf3;
+  width: 30px;
+  border-radius: 50%;
+  color: #a295a8;
+  box-shadow: 2px 2px 1px 0px #00000033;
+}
+
+.text{
+    margin: 0;
+}

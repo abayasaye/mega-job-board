@@ -7,6 +7,7 @@ import NaturalIntelegentV1 from "../components/Natural_Intelegent/IB_v1/v1";
 import TestV1 from "../components/Practice/IB_v1/V1";
 import TotalJobV1 from "../components/Practice/IB_v2/V2";
 import TotalJobV2 from "../components/Practice/IB_v3/V3";
+import TotaljobV4 from "../components/Practice/IB_v4/V4";
 
 export default function Home() {
   const Container = styled.div`
@@ -28,6 +29,9 @@ export default function Home() {
       </Container>
       <Container>
         <TotalJobV2 />
+      </Container>
+      <Container>
+        <TotaljobV4 />
       </Container>
     </>
   );
