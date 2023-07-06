@@ -8,7 +8,6 @@ import TestV1 from "../components/Practice/IB_v1/V1";
 import TotalJobV1 from "../components/Practice/IB_v2/V2";
 import TotalJobV2 from "../components/Practice/IB_v3/V3";
 
-
 export default function Home() {
   const Container = styled.div`
     display: flex;
@@ -22,13 +21,13 @@ export default function Home() {
   return (
     <>
       <Container>
-        <TestV1/>
-        </Container>
-        <Container>
-        <TotalJobV1/>
+        <TestV1 />
       </Container>
       <Container>
-        <TotalJobV2/>
+        <TotalJobV1 />
+      </Container>
+      <Container>
+        <TotalJobV2 />
       </Container>
     </>
   );
