@@ -8,6 +8,8 @@ import TestV1 from "../components/Practice/IB_v1/V1";
 import TotalJobV1 from "../components/Practice/IB_v2/V2";
 import TotalJobV2 from "../components/Practice/IB_v3/V3";
 import TotaljobV4 from "../components/Practice/IB_v4/V4";
+import TjV5 from "../components/Practice/IB_v5/V5";
+import TjV6 from "../components/Practice/IB_v6/V6";
 
 export default function Home() {
   const Container = styled.div`
@@ -32,6 +34,12 @@ export default function Home() {
       </Container>
       <Container>
         <TotaljobV4 />
+      </Container>
+      <Container>
+        <TjV5 />
+      </Container>
+      <Container>
+        <TjV6 />
       </Container>
     </>
   );

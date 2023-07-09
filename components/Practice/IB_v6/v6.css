@@ -1,0 +1,59 @@
+.conatiner {
+  font-family: "Poppins";
+  text-align: left;
+  background-color: #3cbf0a;
+  color: #fff;
+  width: 397px;
+  height: 356px;
+  padding: 30px 30px 18px 30px;
+  border-radius: 12px;
+  gap: 24px;
+}
+
+.tjTitle {
+  width: 144px;
+  height: 33px;
+  margin: 0;
+}
+title {
+  margin-top: 0;
+}
+
+.subtitle {
+  margin-top: 0;
+}
+
+.inputs {
+  width: 329px;
+  height: 51.59px;
+  top: 145.91363525390625px;
+  left: 30px;
+  padding: 18px 30px 18px 30px;
+  border-radius: 3px;
+  border: #fff;
+  margin: 10px 10px 0 0;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.btn {
+  background: #fa6505;
+  border: none;
+  width: 328.92px;
+  height: 44px;
+  padding: 12px 64px 12px 64px;
+  border-radius: 50px;
+  gap: 8.222996711730957px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #fff;
+  cursor: pointer;
+}
