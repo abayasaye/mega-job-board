@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-family: "Poppins";
+  text-align: left;
+  width: 800px;
+  height: 530.42px;
+  background-color: #4abf82;
+}
+.title{
+    color:#fff ;
+}
+.range {
+    width: 180px;
+    margin-right: 20px;
+  color: #fff;
+}
+
+.scrollView{
+    width: 100px;
+    height:30px;
+    background-color: #fff;
+    border-radius:5px;
+    border: none;
+    color: #000;
+}
+
+.chartCard{
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    height: 400px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.labels{
+    color: #fff;
+    width: fit-content;
+}
+
+.pa{
+    color: #fff;
+}
+.uls{
+    text-align: left;
+}
+.btn{
+    background: #4abf82;
+    color: #fff;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px #4abf82;
+    cursor: pointer;
+}
+.conCol{
+    margin-left: 20px;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.btnTop{
+    width: 100px;
+    height:30px;
+    background-color: #3ea06d;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 1;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.cahrtCon{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.values{
+margin-top: 0;
+}
