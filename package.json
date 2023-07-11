@@ -68,6 +68,7 @@
     "react-modal": "^3.9.1",
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.3.0",
+    "reactjs-popup": "^2.0.5",
     "redis": "^2.8.0",
     "styled-components": "^4.3.2",
     "ua-parser-js": "^0.7.24",

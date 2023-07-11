@@ -4,22 +4,30 @@ import { useState } from "react";
 import Circle from "react-circle";
 
 const Dashboard = () => {
+    const Div = styled.div``
+    const Btn = styled.button``
+    const Title = styled.h4``
+    const Text = styled.p``
+    const Span = styled.span``
+    const Input = styled.input``
+    const Ul = styled.ul``
+    const Li = styled.li``
   const [value, setValue] = useState();
 
   const rangeValue = (e) => {
     setValue(e.target.value);
   };
   return (
-    <div className={styles.container}>
-      <div className={styles.conCol}>
-        <h4 className={styles.title}>Loan Type</h4>
-        <div className={styles.btnContainer}>
-          <button className={styles.btnTop}>Home Loan</button>
-          <button className={styles.btnTop}> Car Loan</button>
-          <button className={styles.btnTop}>Personal Loan</button>
-        </div>
-        <p className={styles.labels}>Loan Amount</p>
-        <input
+    <Div className={styles.container}>
+      <Div className={styles.conCol}>
+        <Title className={styles.title}>Loan Type</Title>
+        <Div className={styles.btnContainer}>
+          <Btn className={styles.btnTop}>Home Loan</Btn>
+          <Btn className={styles.btnTop}> Car Loan</Btn>
+          <Btn className={styles.btnTop}>Personal Loan</Btn>
+        </Div>
+        <Text className={styles.labels}>Loan Amount</Text>
+        <Input
           className={styles.range}
           onChange={rangeValue}
           type="range"
@@ -29,9 +37,9 @@ const Dashboard = () => {
           min="0"
           max="100000"
         />
-        <button className={styles.scrollView}>₪ {value}</button>
-        <p className={styles.labels}>Interst Amount</p>
-        <input
+        <Btn className={styles.scrollView}>₪ {value}</Btn>
+        <Text className={styles.labels}>Interst Amount</Text>
+        <Input
           className={styles.range}
           onChange={rangeValue}
           type="range"
@@ -41,10 +49,10 @@ const Dashboard = () => {
           min="0"
           max="100"
         />
-        <button className={styles.scrollView}>{value}</button>{" "}
-        <span className={styles.pa}> p.a </span>
-        <p className={styles.labels}>Loan Team</p>
-        <input
+        <Btn className={styles.scrollView}>{value}</Btn>{" "}
+        <Span className={styles.pa}> Text.a </Span>
+        <Text className={styles.labels}>Loan Team</Text>
+        <Input
           className={styles.range}
           onChange={rangeValue}
           type="range"
@@ -54,10 +62,10 @@ const Dashboard = () => {
           min="0"
           max="100"
         />
-        <button className={styles.scrollView}>{value}</button>
-      </div>
-      <div className={styles.conCol}>
-        <div className={styles.chartCard}>
+        <Btn className={styles.scrollView}>{value}</Btn>
+      </Div>
+      <Div className={styles.conCol}>
+        <Div className={styles.chartCard}>
           <Circle
             progress={`₪${value}`}
             animate={true}
@@ -71,25 +79,25 @@ const Dashboard = () => {
             showPercentage={true}
             showPercentageSymbol={false}
           />
-          <div className={styles.cahrtCon}>
-            <ul className={styles.uls}>
-              <li>Principil </li>
-              <li>Interst Payable </li>
-              <p>
+          <Div className={styles.cahrtCon}>
+            <Ul className={styles.uls}>
+              <Li>Principil </Li>
+              <Li>Interst Payable </Li>
+              <Text>
                 Total Amount
                 <br /> Payable{" "}
-              </p>
-            </ul>
-            <div>
-              <p className={styles.values}>{`₪ ${value}`}</p>
-              <p className={styles.values}>{`₪ ${value}`}</p>
-              <p className={styles.values}>{`₪ ${value}`}</p>
-            </div>
-          </div>
-          <button className={styles.btn}>Apply Now</button>
-        </div>
-      </div>
-    </div>
+              </Text>
+            </Ul>
+            <Div>
+              <Text className={styles.values}>{`₪ ${value}`}</Text>
+              <Text className={styles.values}>{`₪ ${value}`}</Text>
+              <Text className={styles.values}>{`₪ ${value}`}</Text>
+            </Div>
+          </Div>
+          <Btn className={styles.btn}>Apply Now</Btn>
+        </Div>
+      </Div>
+    </Div>
   );
 };
 

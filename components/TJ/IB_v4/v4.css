@@ -1,0 +1,46 @@
+.container{
+    text-align: center;
+    width: 353px;
+    height:281px;
+    border-radius: 19px;
+    padding: 20px;
+    background-color: #3CBF0A;
+}
+
+.tjTitle{
+    margin-top: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.title{
+    font-family: "Poppins";
+font-size: 30px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+    color: #fff;
+}
+
+.btnCon{
+    margin: 10px;
+}
+.btn{
+    width:130px;
+    height:24px;
+    margin-right:10px;
+    border-radius: 10px;
+    border: none;
+    color:#000;
+    font-weight:700;
+}
+
+.searchBtn{
+    width:312.16px;
+    height:38.3px;
+    border-radius: 38.170860290527344px;
+    border: none;
+    background: #FA6505;
+    color: #fff;
+    font-weight: 400;
+    font-size:15px;
+}
