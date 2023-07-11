@@ -1,0 +1,60 @@
+.container {
+  width: 352px;
+  height: fit-content;
+  padding: 20px;
+  gap: 18.58px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 19px;
+}
+.monsterLink {
+  font-family: "poppins";
+  color: #6e46ae;
+  font-weight: 400;
+}
+
+.title {
+  width: 312px;
+  height: 48px;
+  font-family: "poppins";
+  color: #6e46ae;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-family: "poppins";
+  font-weight: 600;
+  background-color: #6e46ae;
+  color: #ffffff;
+  width: 111.65px;
+  height: 34px;
+  border-radius: 28.6474px;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 24px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.registerLing{
+    color: #B3B4C3;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    line-break: 2;
+    text-decoration-line: underline;
+    margin-top:10px;
+    cursor: pointer;
+}

@@ -1,65 +1,70 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styled from "styled-components";
+import CardImage from "../components/Monster/IB_v1/Card-images";
+import CardImag from "../components/Monster/IB_v2/Card-images";
+import MonsterV1 from "../components/Monster/IB_v1/V1";
+import MonsterV2 from "../components/Monster/IB_v2/V2";
+import NaturalIntelegentV1 from "../components/Natural_Intelegent/IB_v1/v1";
+import TestV1 from "../components/Practice/IB_v1/V1";
+import TotalJobV1 from "../components/Practice/IB_v2/V2";
+import TotalJobV2 from "../components/Practice/IB_v3/V3";
+import TotaljobV4 from "../components/Practice/IB_v4/V4";
+import TjV5 from "../components/Practice/IB_v5/V5";
+import TjV6 from "../components/Practice/IB_v6/V6";
+import Dashboard from "../components/Practice/IB_v7/V7";
+import TotalJobV4 from "../components/TJ/IB_v4/V4";
+import PopUp from "../components/Practice/IB_v8/V8";
+import JobV9 from "../components/Practice/IB_v9/V9";
+import BarkV1 from "../components/Bark/IB_v1/V1";
+import JobReqV2 from "../components/Bark/IB_v1/IB_v2/V2";
 
 export default function Home() {
+  const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px;
+  `;
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    <>
+      <Container>
+        <TestV1 />
+      </Container>
+      <Container>
+        <TotalJobV1 />
+      </Container>
+      <Container>
+        <TotalJobV2 />
+      </Container>
+      <Container>
+        <TotaljobV4 />
+      </Container>
+      <Container>
+        <TjV5 />
+      </Container>
+      <Container>
+        <TjV6 />
+      </Container>
+      {/* <Container>
+        <Dashboard />
+      </Container> */}
+      <Container>
+        <TotalJobV4 />
+      </Container>
+      <Container>
+        <PopUp />
+      </Container>
+      <Container>
+        <JobV9 />
+      </Container>
+      <Container>
+        <BarkV1 />
+      </Container>
+      <Container>
+        <JobReqV2 />
+      </Container>
+    </>
+  );
 }

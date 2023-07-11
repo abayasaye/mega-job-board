@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 336px;
+  height: 332px;
+  padding: 17px 12px 17px 12px;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.tjLink {
+  color: #3cbf0a;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin:0px;
+}
+.title {
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.abcd {
+  display: inline-block;
+  text-align: center;
+  background-color: #e8eaf3;
+  width: 20px;
+  font-weight: 600;
+  border-radius: 50%;
+  color: #a295a8 !important;
+  box-shadow: 2px 2px 1px 0px #00000033;
+  margin-right: 20px;
+}
+
+.abcd:active{
+  color: #fff;
+  background-color: #3cbf0a;
+}
+.acd::before{
+
+}
+
+.text {
+color:#70718E;
+  font-family: "Poppins";
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}.text:active{
+  color: #3cbf0a;
+} 
+.registerLink{
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  
+}

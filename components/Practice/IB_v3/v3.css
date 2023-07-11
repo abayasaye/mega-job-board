@@ -1,0 +1,85 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  width: 344px;
+  height: 397px;
+  border-radius: 30px;
+}
+.logo{
+
+}
+.icon{
+margin-bottom:20px;
+}
+
+.TjLink {
+  font-family: "Poppins";
+  color: #3cbf0a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.card {
+  background: #3cbf0a;
+  width: 344px;
+  height: 250px;
+  padding: 10px 8px 10px 0px;
+  border-radius: 20px;
+}
+
+.title {
+  margin-bottom:0 ;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.btnCon {
+  margin-left:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:330.29px;
+  height: 38px;
+}
+
+.btns {
+  margin-right: 20px;
+  padding: 0px, 14px, 0px, 14px;
+  background: #fa6505;
+  width: fit-content;
+  height: 24px;
+  border-radius: 29px;
+  border: none;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+}
+
+.registerLing{
+  color: #fff;
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  line-break: 2;
+  text-decoration-line: underline;
+  margin-top:10px;
+  cursor: pointer;
+}
+
+

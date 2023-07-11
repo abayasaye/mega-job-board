@@ -1,0 +1,55 @@
+.conatiner{
+    width: 369.05px;
+    height: 591.46px;
+    border-radius: 18px;
+    background-color: #fff;
+}
+.img{
+    margin-top: 20px;
+}
+.title{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 18px;
+}
+.bold{
+    text-decoration: underline #808080;
+}
+
+.btnCon{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size:11px;
+    margin: 10px;
+    width: 123px;
+    height: 36px;
+    border-radius: 50px;
+    border: none;
+    background-color:#D4E3F4;
+}
+
+.linkBtn{
+    font-family: "Poppins";
+    font-weight: 500;
+    background-color: #828BDE;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 267px;
+    height: 54px;
+}
+
+.link{
+    height: 34px;
+    text-decoration: underline;
+    color: #B3B4C3;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size:12px;
+
+}

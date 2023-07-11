@@ -1,0 +1,45 @@
+.container {
+  background-color: #fff;
+  width: 352px;
+  height: 370px;
+  padding: 20px;
+  border-radius: 18.5809268951416px;
+  gap: 10px;
+}
+.barkTitle {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.title {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0;
+}
+.bold {
+  text-decoration: underline;
+}
+
+.btn {
+    background-color: #111637;
+    color: #fff;
+  width: 132.65px;
+  height: 34px;
+  padding: 0px 14.323690414428711px 0px 14.323690414428711px;
+  border-radius: 28.647380828857422px;
+  gap: 14.323690414428711px;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
