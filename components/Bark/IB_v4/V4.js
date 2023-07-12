@@ -3,22 +3,26 @@ import styles from "./v4.css"
 import styled from "styled-components"
 
 const BarkV4 = () => {
+    const Div = styled.div``;
+    const P = styled.p``;
+    const Title = styled.h1``;
+    const Btn = styled.button``;
     return (
-        <div className={styles.container}>
-            <p className={styles.bark}>Continue your search on<Logo></Logo></p>
+        <Div className={styles.container}>
+            <P className={styles.bark}>Continue your search on<Logo></Logo></P>
             <Picture></Picture>
-            <h1 className={styles.title}>Embrace flexible hours: Take charge of your schedule!</h1>
-            <div className={styles.btnCon}>
-                <div>
-                <button className={styles.btn}>Dog Walker</button>
-                <button className={styles.btn}>House Cleaning</button>
-                </div>
-                <div>
-                <button className={styles.btn}>General Builders</button>
-                <button className={styles.btn}>Gardening</button>
-                </div>
-            </div>
-        </div>
+            <Title className={styles.title}>Embrace flexible hours: Take charge of your schedule!</Title>
+            <Div className={styles.btnCon}>
+                <Div>
+                <Btn className={styles.btn}>Dog Walker</Btn>
+                <Btn className={styles.btn}>House Cleaning</Btn>
+                </Div>
+                <Div>
+                <Btn className={styles.btn}>General Builders</Btn>
+                <Btn className={styles.btn}>Gardening</Btn>
+                </Div>
+            </Div>
+        </Div>
     );
 }
 

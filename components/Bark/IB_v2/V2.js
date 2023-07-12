@@ -5,6 +5,7 @@ const JobReqV2 = () => {
   const Div = styled.div``;
   const Btn = styled.button``;
   const H1 = styled.h1``;
+  const Text = styled.p``;  
   return (
     <Div className={styles.conatiner}>
       <Div className={styles.img}>
@@ -33,10 +34,10 @@ const JobReqV2 = () => {
         </Div>
       </Div>
       <Btn className={styles.linkBtn}>Take Me Baggage Handler Job</Btn>
-      <p className={styles.link}>
+      <Text className={styles.link}>
         I dont have most of these skills,
         <br /> take me back to search
-      </p>
+      </Text>
     </Div>
   );
 };

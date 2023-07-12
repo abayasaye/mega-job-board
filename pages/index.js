@@ -10,7 +10,7 @@ import TotalJobV2 from "../components/Practice/IB_v3/V3";
 import TotaljobV4 from "../components/Practice/IB_v4/V4";
 import TjV5 from "../components/Practice/IB_v5/V5";
 import TjV6 from "../components/Practice/IB_v6/V6";
-import Dashboard from "../components/Practice/IB_v7/V7";
+// import Dashboard from "../components/Practice/IB_v7/V7";
 import TotalJobV4 from "../components/TJ/IB_v4/V4";
 import PopUp from "../components/Practice/IB_v8/V8";
 import JobV9 from "../components/Practice/IB_v9/V9";
@@ -18,6 +18,7 @@ import BarkV1 from "../components/Bark/IB_v1/V1";
 import JobReqV2 from "../components/Bark/IB_v2/V2";
 import CashierV3 from "../components/Bark/IB_v3/V3";
 import BarkV4 from "../components/Bark/IB_v4/V4";
+import Dashboard from "../components/Taskrabbit/V1";
 
 export default function Home() {
   const Container = styled.div`
@@ -73,6 +74,7 @@ export default function Home() {
       <Container>
         <BarkV4 />
       </Container>
+        <Dashboard />
     </>
   );
 }
